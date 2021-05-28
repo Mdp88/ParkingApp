@@ -1,0 +1,150 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.App{
+  text-align: center;
+  display: grid;
+  height: fit-content;
+  margin: 50px;
+  margin-top: 10px;
+}
+
+.Cash{
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.Clock{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+.material-icons{
+  user-select: none;
+}
+
+.Time{
+  margin: auto;
+  width: fit-content;
+  background-color:rgb(221, 221, 221);
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px darkgrey;
+}
+
+.InitContainer{
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.Add{
+  font-size: 28px;
+  transition: 0.3s;
+  user-select: none;
+}
+
+.Add:hover{
+  color: rgb(2, 126, 8);
+  cursor: pointer;
+}
+.Remove{
+  font-size: 28px;
+  transition: 0.3s;
+  user-select: none;
+}
+
+.Remove:hover{
+  color: rgb(194, 0, 0);
+  cursor: pointer;
+}
+.Currency{
+  display: inline-block;
+  padding-top: 15px;
+  margin: 10px;
+  width: 100px;
+  height: 125px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  background-color: rgb(221, 221, 221);
+  box-shadow: 1px 3px 5px darkgrey;
+  transition: transform 1s;
+}
+
+.CurrencyContainer{
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  justify-content: center;
+}
+
+.Value{
+  display: flex;
+  margin: auto;
+  margin-top: 5px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.Qty{
+  display: flex;
+  margin: auto;
+  margin-top: 5px;
+  width: 60%;
+}
+
+.Label{
+  margin-top: 15px;
+}
+
+#PriceSetter{
+  width: 80px;
+  height: 20px;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.Payment{
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  height: 50px;
+  width: fit-content;
+  border-radius: 5px;
+  border: 2px solid gray;
+  box-shadow: 1px 3px 5px darkgrey;
+}
+
+.PaymentInput{
+  width: 50px;
+  height: 20px;
+  font-size: 18px;
+}
+
+.PaymentAmount{
+  display: inline-block;
+  width: 80px;
+  font-size: 24px;
+
+}
+
+.Change{
+  display: inline-block;
+  font-weight: 500;
+  margin: 12px;
+  padding-top: 12px;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  box-shadow: 1px 3px 5px darkgrey;
+}
+
+.Topay{
+  font-weight: 600;
+  font-size: x-large;
+  color: rgb(235, 0, 47);
+}
